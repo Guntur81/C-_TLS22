@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int suhu;
+    cout<<"Masukan suhu tubuh anda:";
+    cin>>suhu;
+    
+    if(suhu >= 37)
+    cout<<"\nKESIMPULAN: DIANJURKAN CEK LEBIH LANJUT";
+        else 
+        cout<<"\nKESIMPULAN: AMAN";
+    
+return (0);    
+}
